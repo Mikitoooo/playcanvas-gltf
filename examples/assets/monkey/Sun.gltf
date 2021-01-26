@@ -62,14 +62,12 @@
                 0,
                 0
             ],
-            "name" : "initialShadingGroup",
+            "name" : "Sun_Texture",
             "pbrMetallicRoughness" : {
-                "baseColorFactor" : [
-                    0.800000011920929,
-                    0.800000011920929,
-                    0.800000011920929,
-                    1
-                ],
+                "baseColorTexture" : {
+                    "index" : 0,
+                    "texCoord" : 0
+                },
                 "metallicFactor" : 0,
                 "roughnessFactor" : 0.5
             }
@@ -89,6 +87,18 @@
                     "material" : 0
                 }
             ]
+        }
+    ],
+    "textures" : [
+        {
+            "source" : 0
+        }
+    ],
+    "images" : [
+        {
+            "mimeType" : "image/png",
+            "name" : "Smiling_Sun_Balloon_26in_BaseColor",
+            "uri" : "Smiling_Sun_Balloon_26in_BaseColor.png"
         }
     ],
     "accessors" : [
