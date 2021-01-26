@@ -1,0 +1,169 @@
+{
+    "asset": {
+        "version": "2.0",
+        "generator": "Open Asset Import Library (assimp v5.0.5eb040c7)"
+    },
+    "accessors": [
+        {
+            "bufferView": 0,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 47382,
+            "type": "VEC3",
+            "max": [
+                34.058250427246097,
+                33.38175964355469,
+                13.205419540405274
+            ],
+            "min": [
+                -34.01832580566406,
+                -32.516807556152347,
+                -13.20734691619873
+            ]
+        },
+        {
+            "bufferView": 1,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 47382,
+            "type": "VEC3",
+            "max": [
+                0.9899287819862366,
+                0.9896931052207947,
+                0.9999945163726807
+            ],
+            "min": [
+                -0.982430100440979,
+                -0.9999717473983765,
+                -0.9999958872795105
+            ]
+        },
+        {
+            "bufferView": 2,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 47382,
+            "type": "VEC2",
+            "max": [
+                0.5585770010948181,
+                1.0
+            ],
+            "min": [
+                0.0,
+                0.0
+            ]
+        },
+        {
+            "bufferView": 3,
+            "byteOffset": 0,
+            "componentType": 5125,
+            "count": 71070,
+            "type": "SCALAR",
+            "max": [
+                47381
+            ],
+            "min": [
+                0
+            ]
+        }
+    ],
+    "buffers": [
+        {
+            "byteLength": 1800504,
+            "uri": "result.bin"
+        }
+    ],
+    "bufferViews": [
+        {
+            "buffer": 0,
+            "byteOffset": 0,
+            "byteLength": 568584,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 568584,
+            "byteLength": 568584,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 1137168,
+            "byteLength": 379056,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 1516224,
+            "byteLength": 284280,
+            "target": 34963
+        }
+    ],
+    "materials": [
+        {
+            "name": "DefaultMaterial",
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    0.6000000238418579,
+                    0.6000000238418579,
+                    0.6000000238418579,
+                    1.0
+                ],
+                "metallicFactor": 0.0
+            }
+        },
+        {
+            "name": "initialShadingGroup",
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    0.6000000238418579,
+                    0.6000000238418579,
+                    0.6000000238418579,
+                    1.0
+                ],
+                "metallicFactor": 0.0
+            }
+        }
+    ],
+    "meshes": [
+        {
+            "name": "Smiling_Sun_Balloon__26in_MDL_V1",
+            "primitives": [
+                {
+                    "mode": 4,
+                    "material": 1,
+                    "indices": 3,
+                    "attributes": {
+                        "POSITION": 0,
+                        "NORMAL": 1,
+                        "TEXCOORD_0": 2
+                    }
+                }
+            ]
+        }
+    ],
+    "nodes": [
+        {
+            "name": "input.obj",
+            "children": [
+                1,
+                2
+            ]
+        },
+        {
+            "name": "default"
+        },
+        {
+            "name": "Smiling_Sun_Balloon__26in_MDL_V1",
+            "mesh": 0
+        }
+    ],
+    "scenes": [
+        {
+            "nodes": [
+                0
+            ]
+        }
+    ],
+    "scene": 0
+}
